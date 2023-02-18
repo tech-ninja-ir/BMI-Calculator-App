@@ -1,13 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+
+import '../Components/BottomContainer_Button.dart';
 import '../Components/Icon_Content.dart';
 import '../Components/Reusable_Bg.dart';
 import '../Components/RoundIcon_Button.dart';
+import '../calculator_brain.dart';
 import '../constants.dart';
 import 'Results_Page.dart';
-import '../Components/BottomContainer_Button.dart';
-import '../calculator_brain.dart';
 
 // ignore: must_be_immutable
 class InputPage extends StatefulWidget {
@@ -32,6 +33,7 @@ class _InputPageState extends State<InputPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Color.fromRGBO(2, 26, 42, 1),
         title: Center(
           child: Text('BMI CALCULATOR'),
         ),

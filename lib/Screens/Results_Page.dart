@@ -2,6 +2,7 @@ import 'package:bmi_calculator_app/Components/BottomContainer_Button.dart';
 import 'package:bmi_calculator_app/constants.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
 import '../Components/Reusable_Bg.dart';
 
 class ResultPage extends StatelessWidget {
@@ -20,6 +21,7 @@ class ResultPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Color.fromRGBO(2, 26, 42, 1),
         title: Center(
           child: Text('BMI CALCULATOR'),
         ),
